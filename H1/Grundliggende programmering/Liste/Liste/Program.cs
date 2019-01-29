@@ -48,7 +48,7 @@ namespace Liste
             listeC.Reverse();
 
             //shows the new list to the user
-            for (int i = 0; i < listeB.Count; i++)
+            for (int i = 0; i < listeC.Count; i++)
             {
                 Console.WriteLine(listeC[i]);
             }
