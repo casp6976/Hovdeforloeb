@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9FBA5B86-08E4-418B-9BD6-2F0D3CCF42F8}</ProjectGuid>
+    <ProjectGuid>{2409B5D1-8DBC-4AFA-B54C-EF108C6B34BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Temp</RootNamespace>
-    <AssemblyName>Temp</AssemblyName>
+    <RootNamespace>ArrayOpg4_1</RootNamespace>
+    <AssemblyName>ArrayOpg4-1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

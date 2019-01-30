@@ -29,7 +29,7 @@ namespace ArrayOpg2_3
                         Console.Clear();
 
                         //the program saves the user input
-                        Console.WriteLine("Enter Search;");
+                        Console.WriteLine("Enter Search:");
                         string searchName = Console.ReadLine();
 
                         //the program search the array to see if there's a name matching the saved user input
