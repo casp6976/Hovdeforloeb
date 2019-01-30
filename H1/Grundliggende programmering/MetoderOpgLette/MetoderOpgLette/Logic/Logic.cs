@@ -8,22 +8,27 @@ namespace MetoderOpgLette
 {
     class Logic
     {
-        public static int Addition(int firstNumber,int secondNumber, int totalNumber)
+        #region Opg1
+        //this method takes 2 intergers and put them together and returns that value
+        public static int Addition(int firstNumber,int secondNumber)
         {
+            int totalNumber = new int();
 
             totalNumber = firstNumber + secondNumber;
 
             return totalNumber;
             
         }
-
-        public static float Dividing(int firstNumber, int secondNumber, float totalNumber)
+        //this method an interger with an another interger and returns the result
+        public static float Dividing(int firstNumber, int secondNumber)
         {
+            float totalNumber = new float();
+
             totalNumber = firstNumber / secondNumber;
 
             return totalNumber;
         }
-        
+        //finds out how mutch a number (int) goes up in an another number (int)
         public static int Modulus(int firstNumber, int secondNumber)
         {
             int totalNumber = new int();
@@ -38,5 +43,16 @@ namespace MetoderOpgLette
 
             return totalNumber;
         }
+        //raises a number (int) with an another number (int)
+        public static int Potentiation(int firstNumber, int secondNumber)
+        {
+            int totalNumber = new int();
+
+            //had to convert it because it makes it into dobble instead of an int
+            totalNumber = Convert.ToInt32(Math.Pow(firstNumber, secondNumber));
+
+            return totalNumber;
+        }
+        #endregion
     }
 }

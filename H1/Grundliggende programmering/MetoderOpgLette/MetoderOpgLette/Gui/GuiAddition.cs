@@ -12,13 +12,13 @@ namespace MetoderOpgLette
         {
             Console.Clear();
             Console.WriteLine("[Addition]\n");
+            Console.WriteLine("{first number} + {second number} = {result}\n");
             Console.WriteLine("inset first number:");
             int firstNumber = int.Parse(Console.ReadLine());
-            Console.WriteLine("+");
+            Console.WriteLine("inset second number:");
             int secondNumber = int.Parse(Console.ReadLine());
-            int totalNumber = 0;
-            
-            int numberReturned = Logic.Addition(firstNumber, secondNumber, totalNumber);
+
+            int numberReturned = Logic.Addition(firstNumber, secondNumber);
 
             Console.WriteLine("=");
             
