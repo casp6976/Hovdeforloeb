@@ -10,6 +10,7 @@ namespace MetoderOpgLette
     {
         public static void Modulus()
         {
+            //the gui for modulus, the user input 2 numbers that will be sent to logic
             Console.Clear();
             Console.WriteLine("[Modulus]\n");
             Console.WriteLine("Find out how many times {first number} goes up in {second number}\n");

@@ -8,6 +8,7 @@ namespace MetoderOpgLette
 {
     class GuiPotentiation
     {
+        //the gui for Potentiation, the user input 2 numbers that will be sent to logic
         public static void Potentiation()
         {
             Console.Clear();

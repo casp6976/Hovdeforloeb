@@ -10,6 +10,7 @@ namespace MetoderOpgLette
     {
         public static void Addition()
         {
+            //the gui for addition, the user input 2 numbers that will be sent to logic
             Console.Clear();
             Console.WriteLine("[Addition]\n");
             Console.WriteLine("{first number} + {second number} = {result}\n");
