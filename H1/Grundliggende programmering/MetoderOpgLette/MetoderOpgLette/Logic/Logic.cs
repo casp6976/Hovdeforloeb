@@ -10,14 +10,14 @@ namespace MetoderOpgLette
     {
         #region Opg1
         //this method takes 2 intergers and put them together and returns that value
-        public static int Addition(int firstNumber,int secondNumber)
+        public static int Addition(int firstNumber, int secondNumber)
         {
             int totalNumber = new int();
 
             totalNumber = firstNumber + secondNumber;
 
             return totalNumber;
-            
+
         }
         //this method an interger with an another interger and returns the result
         public static float Dividing(int firstNumber, int secondNumber)
@@ -53,6 +53,39 @@ namespace MetoderOpgLette
 
             return totalNumber;
         }
+        #endregion
+
+        #region Opg2
+
+        public static double Opg2(double firstNumber, double secondNumber)
+        {
+            double totalNumber = new double();
+
+            totalNumber = Math.Pow(firstNumber, 2) + Math.Pow(secondNumber, 2);
+
+            return totalNumber;
+        }
+
+        public static string CheckNumberSize(double firstNumber, double secondNumber)
+        {
+            string returnString = "";
+
+            if (firstNumber > secondNumber)
+            {
+                returnString = "a^2 is the largest";
+            }
+            else if (firstNumber < secondNumber)
+            {
+                returnString = "b^2 is the largest";
+            }
+            else if (firstNumber == secondNumber)
+            {
+                returnString = "they are both the same size";
+            }
+
+            return returnString;
+        }
+
         #endregion
     }
 }

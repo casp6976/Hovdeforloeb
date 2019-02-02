@@ -17,6 +17,7 @@ namespace MetoderOpgLette
                 Console.Clear();
                 Console.WriteLine("[Main menu]\n");
                 Console.WriteLine("[1] Opg 1");
+                Console.WriteLine("[2] Opg 2");
                 Console.WriteLine("[0] Exit");
 
                 string menuInput = Console.ReadLine();
@@ -26,6 +27,10 @@ namespace MetoderOpgLette
                 {
                     case "1":
                         Opg1();
+                        break;
+
+                    case "2":
+                        GuiOpg2.Opg2();
                         break;
 
                     case "0":
