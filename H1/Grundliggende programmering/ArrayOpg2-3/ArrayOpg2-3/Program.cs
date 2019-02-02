@@ -22,12 +22,12 @@ namespace ArrayOpg2_3
                 Console.WriteLine("[1] search \n[2] add name \n[3] remove name \n[4] exit");
 
                 ConsoleKeyInfo menuInput = Console.ReadKey();
-                switch (char.ToLower(menuInput.KeyChar))
+                switch (char.ToLower(menuInput.KeyChar))  
                 {
                     //search
-                    case '1':
+                    case '1':   
                         Console.Clear();
-
+                        
                         //the program saves the user input
                         Console.WriteLine("Enter Search:");
                         string searchName = Console.ReadLine();
