@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gui\GuiOpg3.cs" />
     <Compile Include="Gui\GuiPotentiation.cs" />
     <Compile Include="Gui\GuiModulus.cs" />
     <Compile Include="Gui\GuiDividing.cs" />

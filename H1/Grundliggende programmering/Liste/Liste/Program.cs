@@ -21,9 +21,13 @@ namespace Liste
             Console.ReadKey();
 
             //removing the numbers 6, 12 and 18
-            listeB.Remove(6);
-            listeB.Remove(12);
-            listeB.Remove(18);
+            for (int i = 0; i < listeB.Count; i++)
+            {
+                if (i % 3 == listeB[i])
+                {
+                    listeB.Remove(i);
+                }
+            }
 
             //shows the updated list to the user
             for (int i = 0; i < listeB.Count; i++)

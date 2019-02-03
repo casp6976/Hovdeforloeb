@@ -56,7 +56,7 @@ namespace MetoderOpgLette
         #endregion
 
         #region Opg2
-
+        //finds the length of a triangle by inputting the 2 first sides
         public static double Opg2(double firstNumber, double secondNumber)
         {
             double totalNumber = new double();
@@ -66,17 +66,18 @@ namespace MetoderOpgLette
             return totalNumber;
         }
 
+        //finds out what of the 2 side the user has input is the longest
         public static string CheckNumberSize(double firstNumber, double secondNumber)
         {
             string returnString = "";
 
             if (firstNumber > secondNumber)
             {
-                returnString = "a^2 is the largest";
+                returnString = "a is the largest";
             }
             else if (firstNumber < secondNumber)
             {
-                returnString = "b^2 is the largest";
+                returnString = "b is the largest";
             }
             else if (firstNumber == secondNumber)
             {
@@ -87,5 +88,34 @@ namespace MetoderOpgLette
         }
 
         #endregion
+
+        #region Opg3
+        //takes a string and a byte and returns an diffrent output depending of the value of the byte
+        public static string Opg3(string name, byte age)
+        {
+            string output = "";
+
+            if(age < 3)
+            {
+                output = name + ", du må gå med ble.";
+            }
+            else if(age > 2 && age < 16)
+            {
+                output = name + ", du må ingenting";
+            }
+            else if(age > 15 && age < 18)
+            {
+                output = name + ", du må drikke";
+            }
+            else if(age > 17)
+            {
+                output = name + ", du må stemme og køre bil";
+            }
+
+            return output;
+        }
+
+        #endregion
+
     }
 }
