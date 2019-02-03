@@ -44,13 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Gui\GuiOpg3.cs" />
-    <Compile Include="Gui\GuiPotentiation.cs" />
-    <Compile Include="Gui\GuiModulus.cs" />
-    <Compile Include="Gui\GuiDividing.cs" />
-    <Compile Include="Gui\GuiAddition.cs" />
+    <Compile Include="Gui\Opg1\GuiPotentiation.cs" />
+    <Compile Include="Gui\Opg1\GuiModulus.cs" />
+    <Compile Include="Gui\Opg1\GuiDividing.cs" />
+    <Compile Include="Gui\Opg1\GuiAddition.cs" />
     <Compile Include="Gui\Gui.cs" />
     <Compile Include="Logic\Logic.cs" />
     <Compile Include="Gui\GuiOpg2.cs" />
+    <Compile Include="Gui\GuiOpg4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
