@@ -18,14 +18,15 @@ namespace Liste
             {
                 Console.WriteLine(listeB[i]);
             }
+            Console.WriteLine(" ");
             Console.ReadKey();
 
-            //removing the numbers 6, 12 and 18
+            //removing the numbers that goes up with 3
             for (int i = 0; i < listeB.Count; i++)
             {
-                if (i % 3 == listeB[i])
+                if (listeB[i] % 3 == 0)
                 {
-                    listeB.Remove(i);
+                    listeB.RemoveAt(i);
                 }
             }
 
@@ -34,6 +35,7 @@ namespace Liste
             {
                 Console.WriteLine(listeB[i]);
             }
+            Console.WriteLine(" ");
             Console.ReadKey();
 
             //insets number 17 in the 3rd index space
@@ -44,6 +46,7 @@ namespace Liste
             {
                 Console.WriteLine(listeB[i]);
             }
+            Console.WriteLine(" ");
             Console.ReadKey();
 
             //creates a new list containing the values from the old
