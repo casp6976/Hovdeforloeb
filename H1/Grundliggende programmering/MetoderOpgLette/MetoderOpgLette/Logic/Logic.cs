@@ -118,8 +118,6 @@ namespace MetoderOpgLette
 
         #endregion
 
-        #region Opg4
-
         public static string Opg4()
         {
             //create an empty string, and an empty int array with 11 spaces
@@ -140,6 +138,32 @@ namespace MetoderOpgLette
             return numbers;
         }
 
-        #endregion
+        public static string Opg5()
+        {
+
+            //create an empty string, and an empty int array with 11 spaces
+            string numbers = "";
+            int[] temp = new int[11];
+
+            //puts the numbers 0-10 in the array
+            for (int i = 0; i < temp.Length; i++)
+            {
+                temp[i] = i;
+            }
+
+            //reverse the order of the values in the array
+            Array.Reverse(temp);
+
+            //puts the reversed values in the array into the string
+            for (int i = 0; i < temp.Length - 1; i++)
+            {
+                numbers += Convert.ToString(temp[i]) + " ";
+            }
+
+            return numbers;
+
+        }
+
+
     }
 }

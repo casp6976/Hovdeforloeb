@@ -20,6 +20,7 @@ namespace MetoderOpgLette
                 Console.WriteLine("[2] Opg 2");
                 Console.WriteLine("[3] Opg 3");
                 Console.WriteLine("[4] Opg 4");
+                Console.WriteLine("[5] Opg 5");
                 Console.WriteLine("[0] Exit");
 
                 string menuInput = Console.ReadLine();
@@ -43,6 +44,9 @@ namespace MetoderOpgLette
                         GuiOpg4.Opg4();
                         break;
 
+                    case "5":
+                        GuiOpg5.Opg5();
+                        break;
                     case "0":
                         Environment.Exit(0);
                         break;

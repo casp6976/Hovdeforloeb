@@ -8,6 +8,12 @@ namespace MetoderOpgLette
 {
     class GuiOpg5
     {
+        public static void Opg5()
+        {
+            Console.Clear();
+            Console.WriteLine(Logic.Opg5());
 
+            Console.ReadKey();
+        }
     }
 }
