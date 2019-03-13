@@ -11,8 +11,10 @@ namespace Biblotek
     {
         //the list that will contain all the books
         public List<Book> theLibary = new List<Book>();
-
-        public Stack userLent = new Stack();
+        //books rented out ends up here
+        public List<Book> booksRented = new List<Book>();
+        //the book the user want to lent is put in this stack
+        public Stack<Book> userLent = new Stack<Book>();
 
         #region Books in Libary
         Book Metro = new Book(1, "Metro 2033", "Dmitry Glukhovsky");
@@ -45,20 +47,24 @@ namespace Biblotek
             theLibary.Add(SeasonOfStorms);
         }
 
+        /// <summary>
+        /// adds a book to the stack and removes it from the list
+        /// </summary>
+        /// <param name="input"></param>
         public void AddToStack(byte input)
         {
+            userLent.Push(theLibary[Convert.ToInt32(input - 1)]);
+            theLibary.RemoveAt(Convert.ToInt32(input - 1));
 
-            foreach (Book b in theLibary)
-            {
-                if (b.Id == input)
-                {
-                    userLent.Push(b);
-                    theLibary.Remove(b);
-                }
-            }
-
-
+            //Console.WriteLine(userLent.Peek().Name);
+            //Console.ReadKey();
         }
 
+        public string RentBooks()
+        {
+            string temp = userLent.Peek().Name;
+            booksRented.Add(userLent.Pop());
+            return temp + " rented";
+        }
     }
 }

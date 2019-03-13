@@ -12,13 +12,14 @@ namespace Biblotek
         static void Main(string[] args)
         {
 
-            
+
             Libary CanLent = new Libary();
 
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("[1] add book to stack \n[0] Exit");
+                Console.WriteLine(CanLent.userLent.Count);
+                Console.WriteLine("[1] add book to stack \n[2] Lent Book \n[0] Exit");
 
 
                 string input = Console.ReadLine();
@@ -38,16 +39,20 @@ namespace Biblotek
                             "[8]  The Tower of Swallows\n" +
                             "[9]  Lady of the Lake\n" +
                             "[10] Season of Stroms");
-                        
+
 
                         byte idInput = byte.Parse(Console.ReadLine());
                         CanLent.AddToStack(idInput);
                         break;
 
+                    case "2":
+                        Console.WriteLine(CanLent.RentBooks());
+                        Console.ReadKey();
+                        break;
+
                     case "0":
                         Environment.Exit(0);
                         break;
-
 
                     default:
                         Console.WriteLine("unknown input");

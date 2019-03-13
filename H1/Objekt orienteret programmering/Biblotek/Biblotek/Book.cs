@@ -56,11 +56,11 @@ namespace Biblotek
         /// <param name="name"></param>
         /// <param name="author"></param>
         /// <param name="id"></param>
-        public Book(byte id, string name, string author)
+        public Book(byte bookId, string bookName, string bookAuthor)
         {
-            Id = pId;
-            Name = pName;
-            Author = pAuthor;
+            Id = bookId;
+            Name = bookName;
+            Author = bookAuthor;
         }
     }
 }
