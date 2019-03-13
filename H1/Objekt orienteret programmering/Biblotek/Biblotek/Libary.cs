@@ -60,6 +60,11 @@ namespace Biblotek
             //Console.ReadKey();
         }
 
+
+        /// <summary>
+        /// removes the top book from the stack and puts it in booksRented list
+        /// </summary>
+        /// <returns></returns>
         public string RentBooks()
         {
             string temp = userLent.Peek().Name;
