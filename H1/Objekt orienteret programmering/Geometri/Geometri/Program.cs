@@ -14,7 +14,6 @@ namespace Geometri
             Square secondSquare = new Square(18);
             Square thirdSquare = new Square(11);
 
-
             Console.WriteLine(firstSquare.Perimeter());
             Console.WriteLine(secondSquare.Perimeter());
             Console.WriteLine(thirdSquare.Perimeter());

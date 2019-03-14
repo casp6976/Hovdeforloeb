@@ -8,8 +8,8 @@ namespace Geometri
 {
     public class Square
     {
+        #region properties
         private int pSide;
-
         public int Side
         {
             get
@@ -21,6 +21,14 @@ namespace Geometri
                 pSide = value;
             }
         }
+        #endregion
+
+        #region constructors
+        //empty constructor
+        public Square()
+        {
+
+        }
 
         /// <summary>
         /// constructor for squares
@@ -30,7 +38,9 @@ namespace Geometri
         {
             Side = squareSide;
         }
+        #endregion
 
+        #region methods
         /// <summary>
         /// returns target perimeter
         /// </summary>
@@ -56,5 +66,6 @@ namespace Geometri
 
             return area;
         }
+        #endregion
     }
 }
