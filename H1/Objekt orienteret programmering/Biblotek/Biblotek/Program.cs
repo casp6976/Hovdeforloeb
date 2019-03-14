@@ -25,6 +25,7 @@ namespace Biblotek
                 string input = Console.ReadLine();
                 switch (input)
                 {
+                    //add book to stack
                     case "1":
                         Console.Clear();
                         Console.WriteLine(
@@ -45,11 +46,14 @@ namespace Biblotek
                         CanLent.AddToStack(idInput);
                         break;
 
+                    //rent book
                     case "2":
+                        Console.Clear();
                         Console.WriteLine(CanLent.RentBooks());
                         Console.ReadKey();
                         break;
 
+                    //exit
                     case "0":
                         Environment.Exit(0);
                         break;
