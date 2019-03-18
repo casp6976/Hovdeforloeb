@@ -10,11 +10,19 @@ namespace Queue
     {
         Queue<Patient> patientQueue = new Queue<Patient>();
 
+        /// <summary>
+        /// adds a new patient to the queue
+        /// </summary>
+        /// <param name="inputName"></param>
         public void AddToQueue(string inputName)
         {
             patientQueue.Enqueue(new Patient() { Name = inputName });
         }
 
+        /// <summary>
+        /// dequeues a patient
+        /// </summary>
+        /// <returns></returns>
         public string CallNext()
         {
             string temp;
@@ -32,6 +40,10 @@ namespace Queue
             return temp;
         }
 
+        /// <summary>
+        /// shows every patient in queue
+        /// </summary>
+        /// <returns></returns>
         public string PeekQueue()
         {
             string temp = "";
@@ -51,6 +63,10 @@ namespace Queue
             return temp;
         }
 
+        /// <summary>
+        /// tells how many patients are in queue
+        /// </summary>
+        /// <returns></returns>
         public int PeopleInQueue()
         {
             return patientQueue.Count();
