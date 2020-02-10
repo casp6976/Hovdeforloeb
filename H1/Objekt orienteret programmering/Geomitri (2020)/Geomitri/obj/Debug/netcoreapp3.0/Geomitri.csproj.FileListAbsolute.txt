@@ -1,0 +1,11 @@
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.exe
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.deps.json
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.runtimeconfig.json
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.runtimeconfig.dev.json
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.dll
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\bin\Debug\netcoreapp3.0\Geomitri.pdb
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\obj\Debug\netcoreapp3.0\Geomitri.csprojAssemblyReference.cache
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\obj\Debug\netcoreapp3.0\Geomitri.AssemblyInfoInputs.cache
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\obj\Debug\netcoreapp3.0\Geomitri.AssemblyInfo.cs
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\obj\Debug\netcoreapp3.0\Geomitri.dll
+C:\Users\casp6976\source\repos\Geomitri\Geomitri\obj\Debug\netcoreapp3.0\Geomitri.pdb
