@@ -6,7 +6,12 @@ namespace Washer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Washer washer = new Washer();
+
+
+            Console.WriteLine("END OF PROGRAM!");
+            Console.ReadKey();
+            
         }
     }
 }
