@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automat (2020)", "Automat (2020)\Automat (2020).csproj", "{4EC043D2-5C65-4EA7-BB84-569CE5338CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC043D2-5C65-4EA7-BB84-569CE5338CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC043D2-5C65-4EA7-BB84-569CE5338CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC043D2-5C65-4EA7-BB84-569CE5338CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC043D2-5C65-4EA7-BB84-569CE5338CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FE989B5-E86A-4597-B455-FFBFB85B8012}
+	EndGlobalSection
+EndGlobal
