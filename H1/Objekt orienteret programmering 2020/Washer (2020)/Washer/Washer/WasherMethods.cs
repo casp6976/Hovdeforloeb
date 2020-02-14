@@ -4,8 +4,14 @@ using System.Text;
 
 namespace Washer
 {
-    class WasherMethods
+    class WasherMethods : Washer
     {
+        public void FlipPower()
+        {
+            
+        }
+
+
 
     }
 }

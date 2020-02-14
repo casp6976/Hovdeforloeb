@@ -6,7 +6,7 @@ namespace Washer
     {
         static void Main(string[] args)
         {
-            Washer washer = new Washer();
+            Washer washer1 = new Washer();
 
 
             Console.WriteLine("END OF PROGRAM!");
